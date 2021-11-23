@@ -1,0 +1,15 @@
+# sdl pkg-config source file
+
+prefix=C:/Program Files (x86)/SDL2
+exec_prefix=${prefix}
+libdir=C:/Program Files (x86)/SDL2/lib
+includedir=C:/Program Files (x86)/SDL2/include
+
+Name: sdl2
+Description: Simple DirectMedia Layer is a cross-platform multimedia library designed to provide low level access to audio, keyboard, mouse, joystick, 3D hardware via OpenGL, and 2D video framebuffer.
+Version: 2.0.16
+Requires:
+Conflicts:
+Libs: -L${libdir}  -lSDL2  
+Libs.private: -lC:/Users/1z3r0/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/16/libGLESv2.so -lC:/Users/1z3r0/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/16/libGLESv1_CM.so -lhidapi -lC:/Users/1z3r0/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/16/libandroid.so -lC:/Users/1z3r0/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/16/liblog.so -lC:/Users/1z3r0/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/16/libdl.so -lC:/Users/1z3r0/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/16/libOpenSLES.so -lm  -Wl,--no-undefined -lSDL2 
+Cflags: -I${includedir}/SDL2  

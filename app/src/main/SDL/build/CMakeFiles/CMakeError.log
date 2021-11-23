@@ -1,0 +1,1113 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/Users/1z3r0/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+lld-link: error: C:\MinGW\lib\crt2.o: machine type x86 conflicts with x64
+lld-link: error: C:\MinGW\lib\gcc\mingw32\6.3.0\crtbegin.o: machine type x86 conflicts with x64
+lld-link: error: C:\MinGW\lib\gcc\mingw32\6.3.0\crtend.o: machine type x86 conflicts with x64
+lld-link: error: libmingw32.a(CRTglob.o): machine type x86 conflicts with x64
+lld-link: error: libmingw32.a(setargv.o): machine type x86 conflicts with x64
+lld-link: error: libmingw32.a(CRTfmode.o): machine type x86 conflicts with x64
+lld-link: error: libmingw32.a(cpu_features.o): machine type x86 conflicts with x64
+lld-link: error: libmingw32.a(CRT_fp10.o): machine type x86 conflicts with x64
+lld-link: error: libmingw32.a(txtmode.o): machine type x86 conflicts with x64
+lld-link: error: libmingw32.a(main.o): machine type x86 conflicts with x64
+lld-link: error: libmingw32.a(gccmain.o): machine type x86 conflicts with x64
+lld-link: error: libmingw32.a(tlssup.o): machine type x86 conflicts with x64
+lld-link: error: libmingw32.a(pseudo-reloc.o): machine type x86 conflicts with x64
+lld-link: error: libmingwex.a(fesetenv.o): machine type x86 conflicts with x64
+lld-link: error: libmsvcrt.a(djpvbs01229.o): machine type x86 conflicts with x64
+lld-link: error: libmsvcrt.a(djpvbs01091.o): machine type x86 conflicts with x64
+lld-link: error: libmsvcrt.a(djpvbs00753.o): machine type x86 conflicts with x64
+lld-link: error: libmsvcrt.a(djpvbs00689.o): machine type x86 conflicts with x64
+lld-link: error: libmsvcrt.a(djpvbs00417.o): machine type x86 conflicts with x64
+lld-link: error: libmsvcrt.a(djpvbs00219.o): machine type x86 conflicts with x64
+lld-link: error: too many errors emitted, stopping now (use /errorlimit:0 to see all errors)
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/Users/1z3r0/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+lld-link: error: C:\MinGW\lib\crt2.o: machine type x86 conflicts with x64
+lld-link: error: C:\MinGW\lib\gcc\mingw32\6.3.0\crtbegin.o: machine type x86 conflicts with x64
+lld-link: error: C:\MinGW\lib\gcc\mingw32\6.3.0\crtend.o: machine type x86 conflicts with x64
+lld-link: error: libmingw32.a(CRTglob.o): machine type x86 conflicts with x64
+lld-link: error: libmingw32.a(setargv.o): machine type x86 conflicts with x64
+lld-link: error: libmingw32.a(CRTfmode.o): machine type x86 conflicts with x64
+lld-link: error: libmingw32.a(cpu_features.o): machine type x86 conflicts with x64
+lld-link: error: libmingw32.a(CRT_fp10.o): machine type x86 conflicts with x64
+lld-link: error: libmingw32.a(txtmode.o): machine type x86 conflicts with x64
+lld-link: error: libmingw32.a(main.o): machine type x86 conflicts with x64
+lld-link: error: libmingw32.a(gccmain.o): machine type x86 conflicts with x64
+lld-link: error: libmingw32.a(tlssup.o): machine type x86 conflicts with x64
+lld-link: error: libmingw32.a(pseudo-reloc.o): machine type x86 conflicts with x64
+lld-link: error: libmingwex.a(fesetenv.o): machine type x86 conflicts with x64
+lld-link: error: libmsvcrt.a(djpvbs01229.o): machine type x86 conflicts with x64
+lld-link: error: libmsvcrt.a(djpvbs01091.o): machine type x86 conflicts with x64
+lld-link: error: libmsvcrt.a(djpvbs00753.o): machine type x86 conflicts with x64
+lld-link: error: libmsvcrt.a(djpvbs00689.o): machine type x86 conflicts with x64
+lld-link: error: libmsvcrt.a(djpvbs00417.o): machine type x86 conflicts with x64
+lld-link: error: libmsvcrt.a(djpvbs00219.o): machine type x86 conflicts with x64
+lld-link: error: too many errors emitted, stopping now (use /errorlimit:0 to see all errors)
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Performing C SOURCE FILE Test HAVE_GCC_PREFERRED_STACK_BOUNDARY failed with the following output:
+Change Dir: C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_98f6c/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_98f6c.dir\build.make CMakeFiles/cmTC_98f6c.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_98f6c.dir/src.c.o
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android16 -DHAVE_GCC_PREFERRED_STACK_BOUNDARY  -funwind-tables -no-canonical-prefixes -fexceptions -idirafter "C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/src/video/khronos" -mpreferred-stack-boundary=2 -O2 -g -DNDEBUG -fPIE -MD -MT CMakeFiles/cmTC_98f6c.dir/src.c.o -MF CMakeFiles\cmTC_98f6c.dir\src.c.o.d -o CMakeFiles\cmTC_98f6c.dir\src.c.o -c C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\src.c
+clang: error: unknown argument: '-mpreferred-stack-boundary=2'
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_98f6c.dir/src.c.o] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTC_98f6c/fast] Error 2
+
+
+Source file was:
+int x = 0; int main(int argc, char **argv) {}
+Performing C SOURCE FILE Test HAVE_ALTIVEC_H_HDR failed with the following output:
+Change Dir: C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_c8bac/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_c8bac.dir\build.make CMakeFiles/cmTC_c8bac.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c8bac.dir/src.c.o
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android16 -DHAVE_ALTIVEC_H_HDR  -funwind-tables -no-canonical-prefixes -fexceptions -idirafter "C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/src/video/khronos" -maltivec -O2 -g -DNDEBUG -fPIE -MD -MT CMakeFiles/cmTC_c8bac.dir/src.c.o -MF CMakeFiles\cmTC_c8bac.dir\src.c.o.d -o CMakeFiles\cmTC_c8bac.dir\src.c.o -c C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\src.c
+clang: warning: argument unused during compilation: '-maltivec' [-Wunused-command-line-argument]
+In file included from C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\src.c:2:
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\11.0.5\include\altivec.h:13:2: error: "AltiVec support not enabled"
+#error "AltiVec support not enabled"
+ ^
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\11.0.5\include\altivec.h:48:19: error: unknown type name 'vector'
+static __inline__ vector signed char __ATTRS_o_ai vec_perm(
+                  ^
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\11.0.5\include\altivec.h:49:5: error: unknown type name 'vector'
+    vector signed char __a, vector signed char __b, vector unsigned char __c);
+    ^
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\11.0.5\include\altivec.h:49:29: error: unknown type name 'vector'
+    vector signed char __a, vector signed char __b, vector unsigned char __c);
+                            ^
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\11.0.5\include\altivec.h:49:53: error: unknown type name 'vector'
+    vector signed char __a, vector signed char __b, vector unsigned char __c);
+                                                    ^
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\11.0.5\include\altivec.h:51:19: error: unknown type name 'vector'
+static __inline__ vector unsigned char __ATTRS_o_ai
+                  ^
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\11.0.5\include\altivec.h:52:10: error: unknown type name 'vector'
+vec_perm(vector unsigned char __a, vector unsigned char __b,
+         ^
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\11.0.5\include\altivec.h:52:36: error: unknown type name 'vector'
+vec_perm(vector unsigned char __a, vector unsigned char __b,
+                                   ^
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\11.0.5\include\altivec.h:53:10: error: unknown type name 'vector'
+         vector unsigned char __c);
+         ^
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\11.0.5\include\altivec.h:55:19: error: unknown type name 'vector'
+static __inline__ vector bool char __ATTRS_o_ai
+                  ^
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\11.0.5\include\altivec.h:55:8: error: 'inline' can only appear on functions
+static __inline__ vector bool char __ATTRS_o_ai
+       ^
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\11.0.5\include\altivec.h:55:30: error: expected ';' after top level declarator
+static __inline__ vector bool char __ATTRS_o_ai
+                             ^
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\11.0.5\include\altivec.h:56:10: error: unknown type name 'vector'
+vec_perm(vector bool char __a, vector bool char __b, vector unsigned char __c);
+         ^
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\11.0.5\include\altivec.h:56:22: error: expected ')'
+vec_perm(vector bool char __a, vector bool char __b, vector unsigned char __c);
+                     ^
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\11.0.5\include\altivec.h:56:9: note: to match this '('
+vec_perm(vector bool char __a, vector bool char __b, vector unsigned char __c);
+        ^
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\11.0.5\include\altivec.h:58:19: error: unknown type name 'vector'
+static __inline__ vector short __ATTRS_o_ai vec_perm(vector signed short __a,
+                  ^
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\11.0.5\include\altivec.h:58:54: error: unknown type name 'vector'
+static __inline__ vector short __ATTRS_o_ai vec_perm(vector signed short __a,
+                                                     ^
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\11.0.5\include\altivec.h:59:54: error: unknown type name 'vector'
+                                                     vector signed short __b,
+                                                     ^
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\11.0.5\include\altivec.h:60:54: error: unknown type name 'vector'
+                                                     vector unsigned char __c);
+                                                     ^
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\11.0.5\include\altivec.h:62:19: error: unknown type name 'vector'
+static __inline__ vector unsigned short __ATTRS_o_ai
+                  ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_c8bac.dir/src.c.o] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTC_c8bac/fast] Error 2
+
+
+Source file was:
+
+          #include <altivec.h>
+          vector unsigned int vzero() {
+              return vec_splat_u32(0);
+          }
+          int main(int argc, char **argv) { }
+Performing C SOURCE FILE Test HAVE_ALTIVEC failed with the following output:
+Change Dir: C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_7bcf0/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_7bcf0.dir\build.make CMakeFiles/cmTC_7bcf0.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7bcf0.dir/src.c.o
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android16 -DHAVE_ALTIVEC  -funwind-tables -no-canonical-prefixes -fexceptions -idirafter "C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/src/video/khronos" -maltivec -O2 -g -DNDEBUG -fPIE -MD -MT CMakeFiles/cmTC_7bcf0.dir/src.c.o -MF CMakeFiles\cmTC_7bcf0.dir\src.c.o.d -o CMakeFiles\cmTC_7bcf0.dir\src.c.o -c C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\src.c
+clang: warning: argument unused during compilation: '-maltivec' [-Wunused-command-line-argument]
+C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\src.c:2:11: error: unknown type name 'vector'
+          vector unsigned int vzero() {
+          ^
+C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\src.c:3:22: warning: implicit declaration of function 'vec_splat_u32' is invalid in C99 [-Wimplicit-function-declaration]
+              return vec_splat_u32(0);
+                     ^
+1 warning and 1 error generated.
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_7bcf0.dir/src.c.o] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTC_7bcf0/fast] Error 2
+
+
+Source file was:
+
+          vector unsigned int vzero() {
+              return vec_splat_u32(0);
+          }
+          int main(int argc, char **argv) { }
+Determining if the include file libunwind.h exists failed with the following output:
+Change Dir: C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_4dde2/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_4dde2.dir\build.make CMakeFiles/cmTC_4dde2.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4dde2.dir/CheckIncludeFile.c.o
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android16   -funwind-tables -no-canonical-prefixes -fexceptions -idirafter "C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/src/video/khronos"  -O2 -g -DNDEBUG -fPIE -MD -MT CMakeFiles/cmTC_4dde2.dir/CheckIncludeFile.c.o -MF CMakeFiles\cmTC_4dde2.dir\CheckIncludeFile.c.o.d -o CMakeFiles\cmTC_4dde2.dir\CheckIncludeFile.c.o -c C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:10: fatal error: 'libunwind.h' file not found
+#include <libunwind.h>
+         ^~~~~~~~~~~~~
+1 error generated.
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_4dde2.dir/CheckIncludeFile.c.o] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTC_4dde2/fast] Error 2
+
+
+
+Determining if the bcopy exist failed with the following output:
+Change Dir: C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_7da42/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_7da42.dir\build.make CMakeFiles/cmTC_7da42.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7da42.dir/CheckSymbolExists.c.o
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android16   -funwind-tables -no-canonical-prefixes -fexceptions -idirafter "C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/src/video/khronos"  -O2 -g -DNDEBUG -fPIE -MD -MT CMakeFiles/cmTC_7da42.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_7da42.dir\CheckSymbolExists.c.o.d -o CMakeFiles\cmTC_7da42.dir\CheckSymbolExists.c.o -c C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: use of undeclared identifier 'bcopy'
+  return ((int*)(&bcopy))[argc];
+                  ^
+1 error generated.
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_7da42.dir/CheckSymbolExists.c.o] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTC_7da42/fast] Error 2
+
+
+File C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef bcopy
+  return ((int*)(&bcopy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _strrev exist failed with the following output:
+Change Dir: C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_b6efa/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_b6efa.dir\build.make CMakeFiles/cmTC_b6efa.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b6efa.dir/CheckSymbolExists.c.o
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android16   -funwind-tables -no-canonical-prefixes -fexceptions -idirafter "C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/src/video/khronos"  -O2 -g -DNDEBUG -fPIE -MD -MT CMakeFiles/cmTC_b6efa.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_b6efa.dir\CheckSymbolExists.c.o.d -o CMakeFiles\cmTC_b6efa.dir\CheckSymbolExists.c.o -c C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: use of undeclared identifier '_strrev'
+  return ((int*)(&_strrev))[argc];
+                  ^
+1 error generated.
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_b6efa.dir/CheckSymbolExists.c.o] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTC_b6efa/fast] Error 2
+
+
+File C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _strrev
+  return ((int*)(&_strrev))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _strupr exist failed with the following output:
+Change Dir: C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_721a2/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_721a2.dir\build.make CMakeFiles/cmTC_721a2.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_721a2.dir/CheckSymbolExists.c.o
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android16   -funwind-tables -no-canonical-prefixes -fexceptions -idirafter "C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/src/video/khronos"  -O2 -g -DNDEBUG -fPIE -MD -MT CMakeFiles/cmTC_721a2.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_721a2.dir\CheckSymbolExists.c.o.d -o CMakeFiles\cmTC_721a2.dir\CheckSymbolExists.c.o -c C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: use of undeclared identifier '_strupr'
+  return ((int*)(&_strupr))[argc];
+                  ^
+1 error generated.
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_721a2.dir/CheckSymbolExists.c.o] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTC_721a2/fast] Error 2
+
+
+File C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _strupr
+  return ((int*)(&_strupr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _strlwr exist failed with the following output:
+Change Dir: C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_9a190/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_9a190.dir\build.make CMakeFiles/cmTC_9a190.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9a190.dir/CheckSymbolExists.c.o
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android16   -funwind-tables -no-canonical-prefixes -fexceptions -idirafter "C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/src/video/khronos"  -O2 -g -DNDEBUG -fPIE -MD -MT CMakeFiles/cmTC_9a190.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_9a190.dir\CheckSymbolExists.c.o.d -o CMakeFiles\cmTC_9a190.dir\CheckSymbolExists.c.o -c C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: use of undeclared identifier '_strlwr'
+  return ((int*)(&_strlwr))[argc];
+                  ^
+1 error generated.
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_9a190.dir/CheckSymbolExists.c.o] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTC_9a190/fast] Error 2
+
+
+File C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _strlwr
+  return ((int*)(&_strlwr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the index exist failed with the following output:
+Change Dir: C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_d7854/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_d7854.dir\build.make CMakeFiles/cmTC_d7854.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d7854.dir/CheckSymbolExists.c.o
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android16   -funwind-tables -no-canonical-prefixes -fexceptions -idirafter "C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/src/video/khronos"  -O2 -g -DNDEBUG -fPIE -MD -MT CMakeFiles/cmTC_d7854.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_d7854.dir\CheckSymbolExists.c.o.d -o CMakeFiles\cmTC_d7854.dir\CheckSymbolExists.c.o -c C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: warning: implicitly declaring library function 'index' with type 'char *(const char *, int)' [-Wimplicit-function-declaration]
+  return ((int*)(&index))[argc];
+                  ^
+C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: note: include the header <strings.h> or explicitly provide a declaration for 'index'
+1 warning generated.
+Linking C executable cmTC_d7854
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_d7854.dir\link.txt --verbose=1
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android16 -funwind-tables -no-canonical-prefixes -fexceptions -idirafter "C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/src/video/khronos"  -O2 -g -DNDEBUG -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_d7854.dir/CheckSymbolExists.c.o -o cmTC_d7854   -latomic -lm 
+ld: error: undefined symbol: index
+>>> referenced by CheckSymbolExists.c:14
+>>>               CMakeFiles/cmTC_d7854.dir/CheckSymbolExists.c.o:(main)
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+mingw32-make.exe[1]: *** [cmTC_d7854] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTC_d7854/fast] Error 2
+
+
+File C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef index
+  return ((int*)(&index))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the rindex exist failed with the following output:
+Change Dir: C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_d4517/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_d4517.dir\build.make CMakeFiles/cmTC_d4517.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d4517.dir/CheckSymbolExists.c.o
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android16   -funwind-tables -no-canonical-prefixes -fexceptions -idirafter "C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/src/video/khronos"  -O2 -g -DNDEBUG -fPIE -MD -MT CMakeFiles/cmTC_d4517.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_d4517.dir\CheckSymbolExists.c.o.d -o CMakeFiles\cmTC_d4517.dir\CheckSymbolExists.c.o -c C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: warning: implicitly declaring library function 'rindex' with type 'char *(const char *, int)' [-Wimplicit-function-declaration]
+  return ((int*)(&rindex))[argc];
+                  ^
+C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: note: include the header <strings.h> or explicitly provide a declaration for 'rindex'
+1 warning generated.
+Linking C executable cmTC_d4517
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_d4517.dir\link.txt --verbose=1
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android16 -funwind-tables -no-canonical-prefixes -fexceptions -idirafter "C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/src/video/khronos"  -O2 -g -DNDEBUG -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_d4517.dir/CheckSymbolExists.c.o -o cmTC_d4517   -latomic -lm 
+ld: error: undefined symbol: rindex
+>>> referenced by CheckSymbolExists.c:14
+>>>               CMakeFiles/cmTC_d4517.dir/CheckSymbolExists.c.o:(main)
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+mingw32-make.exe[1]: *** [cmTC_d4517] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTC_d4517/fast] Error 2
+
+
+File C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef rindex
+  return ((int*)(&rindex))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the itoa exist failed with the following output:
+Change Dir: C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_dbb9e/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_dbb9e.dir\build.make CMakeFiles/cmTC_dbb9e.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dbb9e.dir/CheckSymbolExists.c.o
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android16   -funwind-tables -no-canonical-prefixes -fexceptions -idirafter "C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/src/video/khronos"  -O2 -g -DNDEBUG -fPIE -MD -MT CMakeFiles/cmTC_dbb9e.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_dbb9e.dir\CheckSymbolExists.c.o.d -o CMakeFiles\cmTC_dbb9e.dir\CheckSymbolExists.c.o -c C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: use of undeclared identifier 'itoa'
+  return ((int*)(&itoa))[argc];
+                  ^
+1 error generated.
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_dbb9e.dir/CheckSymbolExists.c.o] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTC_dbb9e/fast] Error 2
+
+
+File C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef itoa
+  return ((int*)(&itoa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _ltoa exist failed with the following output:
+Change Dir: C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_6a483/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_6a483.dir\build.make CMakeFiles/cmTC_6a483.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6a483.dir/CheckSymbolExists.c.o
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android16   -funwind-tables -no-canonical-prefixes -fexceptions -idirafter "C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/src/video/khronos"  -O2 -g -DNDEBUG -fPIE -MD -MT CMakeFiles/cmTC_6a483.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_6a483.dir\CheckSymbolExists.c.o.d -o CMakeFiles\cmTC_6a483.dir\CheckSymbolExists.c.o -c C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: use of undeclared identifier '_ltoa'
+  return ((int*)(&_ltoa))[argc];
+                  ^
+1 error generated.
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_6a483.dir/CheckSymbolExists.c.o] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTC_6a483/fast] Error 2
+
+
+File C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _ltoa
+  return ((int*)(&_ltoa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _uitoa exist failed with the following output:
+Change Dir: C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_b04c0/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_b04c0.dir\build.make CMakeFiles/cmTC_b04c0.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b04c0.dir/CheckSymbolExists.c.o
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android16   -funwind-tables -no-canonical-prefixes -fexceptions -idirafter "C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/src/video/khronos"  -O2 -g -DNDEBUG -fPIE -MD -MT CMakeFiles/cmTC_b04c0.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_b04c0.dir\CheckSymbolExists.c.o.d -o CMakeFiles\cmTC_b04c0.dir\CheckSymbolExists.c.o -c C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: use of undeclared identifier '_uitoa'
+  return ((int*)(&_uitoa))[argc];
+                  ^
+1 error generated.
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_b04c0.dir/CheckSymbolExists.c.o] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTC_b04c0/fast] Error 2
+
+
+File C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _uitoa
+  return ((int*)(&_uitoa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _ultoa exist failed with the following output:
+Change Dir: C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_09dc4/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_09dc4.dir\build.make CMakeFiles/cmTC_09dc4.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_09dc4.dir/CheckSymbolExists.c.o
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android16   -funwind-tables -no-canonical-prefixes -fexceptions -idirafter "C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/src/video/khronos"  -O2 -g -DNDEBUG -fPIE -MD -MT CMakeFiles/cmTC_09dc4.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_09dc4.dir\CheckSymbolExists.c.o.d -o CMakeFiles\cmTC_09dc4.dir\CheckSymbolExists.c.o -c C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: use of undeclared identifier '_ultoa'
+  return ((int*)(&_ultoa))[argc];
+                  ^
+1 error generated.
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_09dc4.dir/CheckSymbolExists.c.o] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTC_09dc4/fast] Error 2
+
+
+File C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _ultoa
+  return ((int*)(&_ultoa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _i64toa exist failed with the following output:
+Change Dir: C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_30579/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_30579.dir\build.make CMakeFiles/cmTC_30579.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_30579.dir/CheckSymbolExists.c.o
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android16   -funwind-tables -no-canonical-prefixes -fexceptions -idirafter "C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/src/video/khronos"  -O2 -g -DNDEBUG -fPIE -MD -MT CMakeFiles/cmTC_30579.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_30579.dir\CheckSymbolExists.c.o.d -o CMakeFiles\cmTC_30579.dir\CheckSymbolExists.c.o -c C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: use of undeclared identifier '_i64toa'
+  return ((int*)(&_i64toa))[argc];
+                  ^
+1 error generated.
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_30579.dir/CheckSymbolExists.c.o] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTC_30579/fast] Error 2
+
+
+File C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _i64toa
+  return ((int*)(&_i64toa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _ui64toa exist failed with the following output:
+Change Dir: C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_2a5af/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_2a5af.dir\build.make CMakeFiles/cmTC_2a5af.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2a5af.dir/CheckSymbolExists.c.o
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android16   -funwind-tables -no-canonical-prefixes -fexceptions -idirafter "C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/src/video/khronos"  -O2 -g -DNDEBUG -fPIE -MD -MT CMakeFiles/cmTC_2a5af.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_2a5af.dir\CheckSymbolExists.c.o.d -o CMakeFiles\cmTC_2a5af.dir\CheckSymbolExists.c.o -c C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: use of undeclared identifier '_ui64toa'
+  return ((int*)(&_ui64toa))[argc];
+                  ^
+1 error generated.
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_2a5af.dir/CheckSymbolExists.c.o] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTC_2a5af/fast] Error 2
+
+
+File C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _ui64toa
+  return ((int*)(&_ui64toa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _stricmp exist failed with the following output:
+Change Dir: C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_6ef1c/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_6ef1c.dir\build.make CMakeFiles/cmTC_6ef1c.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6ef1c.dir/CheckSymbolExists.c.o
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android16   -funwind-tables -no-canonical-prefixes -fexceptions -idirafter "C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/src/video/khronos"  -O2 -g -DNDEBUG -fPIE -MD -MT CMakeFiles/cmTC_6ef1c.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_6ef1c.dir\CheckSymbolExists.c.o.d -o CMakeFiles\cmTC_6ef1c.dir\CheckSymbolExists.c.o -c C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: use of undeclared identifier '_stricmp'
+  return ((int*)(&_stricmp))[argc];
+                  ^
+1 error generated.
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_6ef1c.dir/CheckSymbolExists.c.o] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTC_6ef1c/fast] Error 2
+
+
+File C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _stricmp
+  return ((int*)(&_stricmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _strnicmp exist failed with the following output:
+Change Dir: C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_fd6df/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_fd6df.dir\build.make CMakeFiles/cmTC_fd6df.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fd6df.dir/CheckSymbolExists.c.o
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android16   -funwind-tables -no-canonical-prefixes -fexceptions -idirafter "C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/src/video/khronos"  -O2 -g -DNDEBUG -fPIE -MD -MT CMakeFiles/cmTC_fd6df.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_fd6df.dir\CheckSymbolExists.c.o.d -o CMakeFiles\cmTC_fd6df.dir\CheckSymbolExists.c.o -c C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: use of undeclared identifier '_strnicmp'; did you mean 'strncmp'?
+  return ((int*)(&_strnicmp))[argc];
+                  ^~~~~~~~~
+                  strncmp
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin/../sysroot/usr/include\string.h:137:5: note: 'strncmp' declared here
+int strncmp(const char* __lhs, const char* __rhs, size_t __n) __attribute_pure__;
+    ^
+1 error generated.
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_fd6df.dir/CheckSymbolExists.c.o] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTC_fd6df/fast] Error 2
+
+
+File C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _strnicmp
+  return ((int*)(&_strnicmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _wcsdup exist failed with the following output:
+Change Dir: C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_f0685/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_f0685.dir\build.make CMakeFiles/cmTC_f0685.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f0685.dir/CheckSymbolExists.c.o
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android16   -funwind-tables -no-canonical-prefixes -fexceptions -idirafter "C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/src/video/khronos"  -O2 -g -DNDEBUG -fPIE -MD -MT CMakeFiles/cmTC_f0685.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_f0685.dir\CheckSymbolExists.c.o.d -o CMakeFiles\cmTC_f0685.dir\CheckSymbolExists.c.o -c C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: use of undeclared identifier '_wcsdup'; did you mean 'wcsdup'?
+  return ((int*)(&_wcsdup))[argc];
+                  ^~~~~~~
+                  wcsdup
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin/../sysroot/usr/include\wchar.h:208:10: note: 'wcsdup' declared here
+wchar_t* wcsdup(const wchar_t* __s);
+         ^
+1 error generated.
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_f0685.dir/CheckSymbolExists.c.o] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTC_f0685/fast] Error 2
+
+
+File C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _wcsdup
+  return ((int*)(&_wcsdup))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _wcsicmp exist failed with the following output:
+Change Dir: C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_ef889/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_ef889.dir\build.make CMakeFiles/cmTC_ef889.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ef889.dir/CheckSymbolExists.c.o
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android16   -funwind-tables -no-canonical-prefixes -fexceptions -idirafter "C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/src/video/khronos"  -O2 -g -DNDEBUG -fPIE -MD -MT CMakeFiles/cmTC_ef889.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_ef889.dir\CheckSymbolExists.c.o.d -o CMakeFiles\cmTC_ef889.dir\CheckSymbolExists.c.o -c C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: use of undeclared identifier '_wcsicmp'
+  return ((int*)(&_wcsicmp))[argc];
+                  ^
+1 error generated.
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_ef889.dir/CheckSymbolExists.c.o] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTC_ef889/fast] Error 2
+
+
+File C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _wcsicmp
+  return ((int*)(&_wcsicmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _wcsnicmp exist failed with the following output:
+Change Dir: C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_b7cde/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_b7cde.dir\build.make CMakeFiles/cmTC_b7cde.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b7cde.dir/CheckSymbolExists.c.o
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android16   -funwind-tables -no-canonical-prefixes -fexceptions -idirafter "C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/src/video/khronos"  -O2 -g -DNDEBUG -fPIE -MD -MT CMakeFiles/cmTC_b7cde.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_b7cde.dir\CheckSymbolExists.c.o.d -o CMakeFiles\cmTC_b7cde.dir\CheckSymbolExists.c.o -c C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: use of undeclared identifier '_wcsnicmp'; did you mean 'wcsncmp'?
+  return ((int*)(&_wcsnicmp))[argc];
+                  ^~~~~~~~~
+                  wcsncmp
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin/../sysroot/usr/include\wchar.h:117:5: note: 'wcsncmp' declared here
+int wcsncmp(const wchar_t* __lhs, const wchar_t* __rhs, size_t __n);
+    ^
+1 error generated.
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_b7cde.dir/CheckSymbolExists.c.o] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTC_b7cde/fast] Error 2
+
+
+File C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _wcsnicmp
+  return ((int*)(&_wcsnicmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fopen64 exist failed with the following output:
+Change Dir: C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_9eb78/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_9eb78.dir\build.make CMakeFiles/cmTC_9eb78.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9eb78.dir/CheckSymbolExists.c.o
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android16   -funwind-tables -no-canonical-prefixes -fexceptions -idirafter "C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/src/video/khronos"  -O2 -g -DNDEBUG -fPIE -MD -MT CMakeFiles/cmTC_9eb78.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_9eb78.dir\CheckSymbolExists.c.o.d -o CMakeFiles\cmTC_9eb78.dir\CheckSymbolExists.c.o -c C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: use of undeclared identifier 'fopen64'; did you mean 'fopen'?
+  return ((int*)(&fopen64))[argc];
+                  ^~~~~~~
+                  fopen
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin/../sysroot/usr/include\stdio.h:280:7: note: 'fopen' declared here
+FILE* fopen(const char* __path, const char* __mode);
+      ^
+1 error generated.
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_9eb78.dir/CheckSymbolExists.c.o] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTC_9eb78/fast] Error 2
+
+
+File C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fopen64
+  return ((int*)(&fopen64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fseeko64 exist failed with the following output:
+Change Dir: C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_acfa7/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_acfa7.dir\build.make CMakeFiles/cmTC_acfa7.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_acfa7.dir/CheckSymbolExists.c.o
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android16   -funwind-tables -no-canonical-prefixes -fexceptions -idirafter "C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/src/video/khronos"  -O2 -g -DNDEBUG -fPIE -MD -MT CMakeFiles/cmTC_acfa7.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_acfa7.dir\CheckSymbolExists.c.o.d -o CMakeFiles\cmTC_acfa7.dir\CheckSymbolExists.c.o -c C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: use of undeclared identifier 'fseeko64'; did you mean 'fseeko'?
+  return ((int*)(&fseeko64))[argc];
+                  ^~~~~~~~
+                  fseeko
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin/../sysroot/usr/include\stdio.h:250:5: note: 'fseeko' declared here
+int fseeko(FILE* __fp, off_t __offset, int __whence);
+    ^
+1 error generated.
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_acfa7.dir/CheckSymbolExists.c.o] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTC_acfa7/fast] Error 2
+
+
+File C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fseeko64
+  return ((int*)(&fseeko64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sysctlbyname exist failed with the following output:
+Change Dir: C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_dfb35/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_dfb35.dir\build.make CMakeFiles/cmTC_dfb35.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dfb35.dir/CheckSymbolExists.c.o
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android16   -funwind-tables -no-canonical-prefixes -fexceptions -idirafter "C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/src/video/khronos"  -O2 -g -DNDEBUG -fPIE -MD -MT CMakeFiles/cmTC_dfb35.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_dfb35.dir\CheckSymbolExists.c.o.d -o CMakeFiles\cmTC_dfb35.dir\CheckSymbolExists.c.o -c C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:3:10: fatal error: 'sys/sysctl.h' file not found
+#include <sys/sysctl.h>
+         ^~~~~~~~~~~~~~
+1 error generated.
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_dfb35.dir/CheckSymbolExists.c.o] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTC_dfb35/fast] Error 2
+
+
+File C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/sysctl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sysctlbyname
+  return ((int*)(&sysctlbyname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getauxval exist failed with the following output:
+Change Dir: C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_750e9/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_750e9.dir\build.make CMakeFiles/cmTC_750e9.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_750e9.dir/CheckSymbolExists.c.o
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android16   -funwind-tables -no-canonical-prefixes -fexceptions -idirafter "C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/src/video/khronos"  -O2 -g -DNDEBUG -fPIE -MD -MT CMakeFiles/cmTC_750e9.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_750e9.dir\CheckSymbolExists.c.o.d -o CMakeFiles\cmTC_750e9.dir\CheckSymbolExists.c.o -c C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8:19: error: use of undeclared identifier 'getauxval'
+  return ((int*)(&getauxval))[argc];
+                  ^
+1 error generated.
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_750e9.dir/CheckSymbolExists.c.o] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTC_750e9/fast] Error 2
+
+
+File C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/auxv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getauxval
+  return ((int*)(&getauxval))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the elf_aux_info exist failed with the following output:
+Change Dir: C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_1820c/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_1820c.dir\build.make CMakeFiles/cmTC_1820c.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1820c.dir/CheckSymbolExists.c.o
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android16   -funwind-tables -no-canonical-prefixes -fexceptions -idirafter "C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/src/video/khronos"  -O2 -g -DNDEBUG -fPIE -MD -MT CMakeFiles/cmTC_1820c.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_1820c.dir\CheckSymbolExists.c.o.d -o CMakeFiles\cmTC_1820c.dir\CheckSymbolExists.c.o -c C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8:19: error: use of undeclared identifier 'elf_aux_info'
+  return ((int*)(&elf_aux_info))[argc];
+                  ^
+1 error generated.
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_1820c.dir/CheckSymbolExists.c.o] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTC_1820c/fast] Error 2
+
+
+File C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/auxv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef elf_aux_info
+  return ((int*)(&elf_aux_info))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function iconv_open exists in the iconv failed with the following output:
+Change Dir: C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_98aa4/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_98aa4.dir\build.make CMakeFiles/cmTC_98aa4.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_98aa4.dir/CheckFunctionExists.c.o
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android16   -funwind-tables -no-canonical-prefixes -fexceptions -idirafter "C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/src/video/khronos" -DCHECK_FUNCTION_EXISTS=iconv_open -O2 -g -DNDEBUG -fPIE -MD -MT CMakeFiles/cmTC_98aa4.dir/CheckFunctionExists.c.o -MF CMakeFiles\cmTC_98aa4.dir\CheckFunctionExists.c.o.d -o CMakeFiles\cmTC_98aa4.dir\CheckFunctionExists.c.o -c "C:\Program Files\CMake\share\cmake-3.21\Modules\CheckFunctionExists.c"
+Linking C executable cmTC_98aa4
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_98aa4.dir\link.txt --verbose=1
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android16 -funwind-tables -no-canonical-prefixes -fexceptions -idirafter "C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/src/video/khronos" -DCHECK_FUNCTION_EXISTS=iconv_open -O2 -g -DNDEBUG -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_98aa4.dir/CheckFunctionExists.c.o -o cmTC_98aa4  -liconv  -latomic -lm 
+ld: error: unable to find library -liconv
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+mingw32-make.exe[1]: *** [cmTC_98aa4] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTC_98aa4/fast] Error 2
+
+
+
+Determining if the function iconv_open exists in the c failed with the following output:
+Change Dir: C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_c26d1/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_c26d1.dir\build.make CMakeFiles/cmTC_c26d1.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c26d1.dir/CheckFunctionExists.c.o
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android16   -funwind-tables -no-canonical-prefixes -fexceptions -idirafter "C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/src/video/khronos" -DCHECK_FUNCTION_EXISTS=iconv_open -O2 -g -DNDEBUG -fPIE -MD -MT CMakeFiles/cmTC_c26d1.dir/CheckFunctionExists.c.o -MF CMakeFiles\cmTC_c26d1.dir\CheckFunctionExists.c.o.d -o CMakeFiles\cmTC_c26d1.dir\CheckFunctionExists.c.o -c "C:\Program Files\CMake\share\cmake-3.21\Modules\CheckFunctionExists.c"
+Linking C executable cmTC_c26d1
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_c26d1.dir\link.txt --verbose=1
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android16 -funwind-tables -no-canonical-prefixes -fexceptions -idirafter "C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/src/video/khronos" -DCHECK_FUNCTION_EXISTS=iconv_open -O2 -g -DNDEBUG -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_c26d1.dir/CheckFunctionExists.c.o -o cmTC_c26d1  -lc  -latomic -lm 
+ld: error: undefined symbol: iconv_open
+>>> referenced by CheckFunctionExists.c:17 (C:\Program Files\CMake\share\cmake-3.21\Modules\CheckFunctionExists.c:17)
+>>>               CMakeFiles/cmTC_c26d1.dir/CheckFunctionExists.c.o:(main)
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+mingw32-make.exe[1]: *** [cmTC_c26d1] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTC_c26d1/fast] Error 2
+
+
+
+Determining if the alloca exist failed with the following output:
+Change Dir: C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_8c9b4/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_8c9b4.dir\build.make CMakeFiles/cmTC_8c9b4.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8c9b4.dir/CheckSymbolExists.c.o
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android16   -funwind-tables -no-canonical-prefixes -fexceptions -idirafter "C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/src/video/khronos"  -O2 -g -DNDEBUG -fPIE -MD -MT CMakeFiles/cmTC_8c9b4.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_8c9b4.dir\CheckSymbolExists.c.o.d -o CMakeFiles\cmTC_8c9b4.dir\CheckSymbolExists.c.o -c C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8:19: warning: implicitly declaring library function 'alloca' with type 'void *(unsigned int)' [-Wimplicit-function-declaration]
+  return ((int*)(&alloca))[argc];
+                  ^
+C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8:19: note: include the header <stdlib.h> or explicitly provide a declaration for 'alloca'
+1 warning generated.
+Linking C executable cmTC_8c9b4
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_8c9b4.dir\link.txt --verbose=1
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android16 -funwind-tables -no-canonical-prefixes -fexceptions -idirafter "C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/src/video/khronos"  -O2 -g -DNDEBUG -Wl,--gc-sections -Wl,-z,nocopyreloc  CMakeFiles/cmTC_8c9b4.dir/CheckSymbolExists.c.o -o cmTC_8c9b4   -latomic -lm 
+ld: error: undefined symbol: alloca
+>>> referenced by CheckSymbolExists.c:8
+>>>               CMakeFiles/cmTC_8c9b4.dir/CheckSymbolExists.c.o:(main)
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+mingw32-make.exe[1]: *** [cmTC_8c9b4] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTC_8c9b4/fast] Error 2
+
+
+File C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef alloca
+  return ((int*)(&alloca))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if files pthread_np.h exist failed with the following output:
+Change Dir: C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_e2602/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_e2602.dir\build.make CMakeFiles/cmTC_e2602.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e2602.dir/HAVE_PTHREAD_NP_H.c.o
+C:\Users\1z3r0\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android16   -funwind-tables -no-canonical-prefixes -fexceptions -idirafter "C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/src/video/khronos"  "-IC:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/src/hidapi/hidapi"    -O2 -g -DNDEBUG -fPIE -MD -MT CMakeFiles/cmTC_e2602.dir/HAVE_PTHREAD_NP_H.c.o -MF CMakeFiles\cmTC_e2602.dir\HAVE_PTHREAD_NP_H.c.o.d -o CMakeFiles\cmTC_e2602.dir\HAVE_PTHREAD_NP_H.c.o -c C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CheckIncludeFiles\HAVE_PTHREAD_NP_H.c
+C:\Users\1z3r0\Downloads\SDL2-2.0.16\SDL2-2.0.16\build\CMakeFiles\CheckIncludeFiles\HAVE_PTHREAD_NP_H.c:2:10: fatal error: 'pthread_np.h' file not found
+#include <pthread_np.h>
+         ^~~~~~~~~~~~~~
+1 error generated.
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_e2602.dir/HAVE_PTHREAD_NP_H.c.o] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Users/1z3r0/Downloads/SDL2-2.0.16/SDL2-2.0.16/build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTC_e2602/fast] Error 2
+
+
+Source:
+/* */
+#include <pthread_np.h>
+
+
+int main(void){return 0;}
+
